@@ -27,3 +27,15 @@ alert( result );
 ``` 
 
 `echo $c;`
+
+## Experience
+
+## Education
+
+* University: Belarusian National Technical University
+* Courses:
+  + RS School
+
+## Languages
+* English A1
+* Russian C2
