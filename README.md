@@ -1,1 +1,1 @@
-https://DzPiarfilyeu.github.io/rsschool-cv/
+https://github.com/DzPiarfilyeu/rsschool-cv/blob/rsschool-cv-html/cv.md
