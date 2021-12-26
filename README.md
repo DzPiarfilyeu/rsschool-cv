@@ -1,1 +1,1 @@
-# rsschool-cv
+https://DzPiarfilyeu.github.io/rsschool-cv/
