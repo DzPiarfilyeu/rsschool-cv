@@ -160,5 +160,15 @@ a:active {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
 
+.footer__git-link {
+    background-image: url(img/github.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: none;
+    padding-bottom: 0;
 }
