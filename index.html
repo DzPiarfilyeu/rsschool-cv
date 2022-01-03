@@ -9,22 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="container"></div>
+        <div class="container">
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
             </ul>
         </nav>
+    </div>
     </header>
     <main style="background-color: rgb(174, 178, 179);">
+        <div class="container">
         <img class="rss" src="img\avatar.jpg" alt="avatar">
         <div class="container__1">
         <section class="section" id="profile">
@@ -56,17 +61,13 @@
                 </ul>
             </section>
             <section class="education" id="education">
-
-                <h3>
                     <ul>
                         <h2>Education</h2>
                         <li class="nav-item">University: Belarusian National Technical University</li>
                         <li class="nav-item">Courses:RS School</li>
                     </ul>
-                </h3>
             </section>
         </div>
-        <div class="section">
             <section class="summary" id="summary">
                 <h2>About Me</h2>
                 <h3>
@@ -80,12 +81,12 @@
             <section class="code" id="code">
                 <h2>Code</h2>
                <pre>
-                <code>
+                <code class="code">
 function nbDig(n, d) {
     let square;
     let count = 0;
 
-    for (let i = 0; i <= n; i++) {
+    for (let i = 0; i &lt;= n; i++) {
         square=(i ** 2 + '' ).split(''). 
             forEach((s)=> s == d ? count++ : null)
     }
@@ -99,8 +100,8 @@ function nbDig(n, d) {
                 <h2>English</h2>
                 <h3>A1 - Survival Level — Beginner и Elementary</h3>
             </section>
-        </div>
-    </div> 
+    </div>
+</div> 
     </main>
     <footer style="background-color: rgb(212, 181, 141);">
         <div class="container">
