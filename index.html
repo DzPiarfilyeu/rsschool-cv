@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfiliev Dmitry</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main style="background-color: rgb(174, 178, 179);">
+        <div class="container">
+        <img class="rss" src="img/avatar.jpg" alt="avatar">
+        <div class="container__1">
+        <section class="section" id="profile">
+            <h1>
+                Perfiliev Dmitry<br>
+                RS-School Student
+            </h1>
+        </section>
+        <div class="main-container">
+            <section class="contacts" id="contacts">
+                <h2>
+                    My Contact Info
+                </h2>
+                    <ul>
+                        <li class="nav-item"><a class="contacts" href="https://www.google.com/maps/place/%D0%9C%D0%BE%D0%B7%D1%8B%D1%80%D1%8C/@52.0576376,29.2123319,13z/data=!3m1!4b1!4m5!3m4!1s0x46d61177a7e4bcf1:0x3696f323f24c5593!8m2!3d52.0366919!4d29.2195237?hl=ru" >Location: Mozyr, Belarus</a></li>
+                        <li class="nav-item"><a class="contacts" href="https://github.com/DzPiarfilyeu">GitHub</a></li>
+                        <li class="nav-item"><a class="contacts">Discord:Di Ikkala#6471</a></li>
+                        <li class="nav-item"><a class="contacts">Email:perfilevdim14@gmail.com</a></li>
+                    </ul>
+                
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="nav-item">HTML</li>
+                    <li class="nav-item">CSS</li>
+                    <li class="nav-item">JavaScript</li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                    <ul>
+                        
+                        <li class="nav-item">University: Belarusian National Technical University</li>
+                        <li class="nav-item">Courses:RS School</li>
+                    </ul>
+            </section>
+        </div>
+            <section class="summary" id="summary">
+                <h2>About Me</h2>
+                    <p class="aboutme">I have good interpersonal skills, am an excellent team 
+                        worker and very 
+                        willing to learn and develop new skills.
+                        I am reliable and dependable and often seek new responsibilities
+                        within a wide range of employment areas.</p>
+            </section>
+            <section class="code" id="code">
+                <h2>Code</h2>
+               <pre>
+                <code class="code">
+function nbDig(n, d) {
+    let square;
+    let count = 0;
+
+    for (let i = 0; i &lt;= n; i++) {
+        square=(i ** 2 + '' ).split(''). 
+            forEach((s)=> s == d ? count++ : null)
+    }
+
+    return count
+}             
+                </code>
+               </pre>
+            </section>
+            <section class="english" id="english">
+                <h2>English</h2>
+                <h3>A1 - Survival Level — Beginner и Elementary</h3>
+            </section>
+    </div>
+</div> 
+    </main>
+    <footer style="background-color: rgb(212, 181, 141);">
+        <div class="container">
+			<div class="footer_wrap">
+				<a href="https://rs.school/" class="footer__link-2" target="blank"> <img class="footer_log"
+						src="https://rs.school/images/rs_school_js.svg" alt="rs-school"></a>
+                        <a class="footer__git-link" target="blank" href="https://github.com/DzPiarfilyeu"></a>
+				<h4 class="footer_year text">2022</h4>
+			</div>
+		</div>
+    </footer>
+</body>
+</html>
